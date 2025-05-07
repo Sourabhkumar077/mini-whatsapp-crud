@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a new chat</title>
+    <style>
+        
+        textarea{
+            /* margin: 20px; */
+            width: 40%;
+            height: 100px;
+            background-color: aliceblue;
+        }
+        form{
+            width: 40%;
+            margin: auto;
+            padding: 20px;
+            height: 50%;
+            background-color: rgb(238, 146, 177);
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="/chats" method="POST">
+        <h3>Add new chat</h3>
+        <input type="text" placeholder="who are you ?" name="from"><br>
+        <textarea name="msg" id="" placeholder="Write message here..."></textarea><br>
+        <input type="text" placeholder="Add recipient" name="to">
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>

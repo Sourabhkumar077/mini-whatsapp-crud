@@ -1,0 +1,20 @@
+
+h1{
+    color: blue;
+    text-align: center;
+}
+.chat{
+    background-color: rgb(43, 194, 240);
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.msg{
+    background-color: blanchedalmond;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
