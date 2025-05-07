@@ -23,7 +23,7 @@ A simple practice project that mimics basic WhatsApp chat functionalities using 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mini-whatsapp-crud.git
+   git clone https://github.com/Sourabhkumar077/mini-whatsapp-crud.git)
    cd mini-whatsapp-crud
 2. npm install
 3. node index.js
